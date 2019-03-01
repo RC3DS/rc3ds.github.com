@@ -304,7 +304,12 @@ h2,
 }
 
 .menu-item img {
-  width: 220px;
+  width: 20vw;
+}
+@media (min-width: 650px) {
+    img {
+        width: 30vw;
+    }
 }
 
 .menu-item .menu-price {
